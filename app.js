@@ -43,4 +43,4 @@ function sortearAmigo(){
     let amigoElegido=amigos[Math.floor(Math.random()*amigos.length)];
     let pantalla=document.getElementById('resultado');
     pantalla.innerHTML=`¡El elegido ha sido ${amigoElegido}!`;
-}
+} 
